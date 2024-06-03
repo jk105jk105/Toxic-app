@@ -20,7 +20,7 @@ COPY flag /flag
 RUN chown -R www:www /var/lib/nginx
 
 # Expose the port nginx is listening on
-EXPOSE 80
+EXPOSE 8080
 
 # Copy entrypoint
 COPY entrypoint.sh /entrypoint.sh
