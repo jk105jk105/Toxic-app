@@ -1,4 +1,3 @@
-# Base image
 FROM alpine:3.13
 
 # Setup user
